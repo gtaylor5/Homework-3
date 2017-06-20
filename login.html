@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Student Registration</title>
+    </head>
+    <body>
+        
+        <h1>Welcome to the Student Registration Site</h1>
+        <h2>If you already have an account, please log in</h2>
+        <form action="/RegistrationController/" method="get">
+            <table>
+                <tr>
+                    <td>User Id:</td> 
+                    <td><input type="text" name="userId"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td> 
+                    <td><input type="password" name=password><br></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" name="loginButton">
+        </form>
+        
+        <h2>For new users, please register first.</h2>
+        <input type="submit" value="Register" name="registerButton">
+        
+    </body>
+</html>
